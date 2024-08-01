@@ -12,12 +12,8 @@ class PokemonListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
     return ListTile(
-      leading: Text(
-        '${pokemon.id}',
-        style: textTheme.bodySmall,
-      ),
+      leading: Text('${pokemon.id}'),
       title: Text(pokemon.name),
       onTap: () {
         Navigator.push(

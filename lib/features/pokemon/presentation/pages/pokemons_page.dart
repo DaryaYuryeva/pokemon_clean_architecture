@@ -7,13 +7,11 @@ class PokemonsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Pokemon List'),
-        ),
-        body: const PokemonList(),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Pokemon List'),
       ),
+      body: const PokemonList(),
     );
   }
 }

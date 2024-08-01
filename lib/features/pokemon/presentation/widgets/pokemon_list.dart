@@ -62,8 +62,6 @@ class _PokemonListState extends State<PokemonList> {
                   child: FloatingActionButton(
                     onPressed: _scrollToTop,
                     tooltip: 'Scroll to Top',
-                    backgroundColor: Colors.orange,
-                    foregroundColor: Colors.white,
                     shape: const CircleBorder(),
                     child: const Icon(
                       Icons.arrow_upward,

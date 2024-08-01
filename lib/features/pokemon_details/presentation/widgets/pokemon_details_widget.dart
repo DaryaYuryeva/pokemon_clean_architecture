@@ -24,7 +24,6 @@ class _PokemonDetailsWidgetState extends State<PokemonDetailsWidget> {
           return const Center(child: LoaderWidget());
         case PokemonDetailsStatus.success:
           return Card(
-            color: Colors.orangeAccent,
             child: Padding(
               padding: const EdgeInsets.all(16),
               child: Column(

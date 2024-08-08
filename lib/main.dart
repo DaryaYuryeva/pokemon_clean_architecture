@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         title: "Pokemon's List",
         theme: Themes.lightTheme,
         darkTheme: Themes.darkTheme,
-        themeMode: ThemeMode.dark,
+        themeMode: ThemeMode.system,
         home: const PokemonsPage(),
       ),
     );
